@@ -2,9 +2,8 @@
 body {
   font-size: 14px;
   font-family: 'Raleway', sans-serif;
-  color: #202121;
-  background-color: #f8f9fc;
 }
+
 
 .hidden { display: none; }
 
@@ -20,12 +19,18 @@ body {
    background-color: #202121;
 }
 
+.w-colour {
+   color: #202121;
+   background-color: #f8f9fc;
+}
+
  /*------------ Brand Colours End ------------*/
 
 /*------------ Start Nav ------------*/
 
    nav {
       grid-column: 1 / span 1;
+      margin-top: 0;
       padding-top: 0.7em;
       padding-bottom: 0.7em;
       color: #202121;
@@ -33,7 +38,21 @@ body {
       position: fixed;
       z-index: 100;
       width: 100%;
-      top:2em;
+      top:0;
+   }
+
+
+   .nav-night {
+      grid-column: 1 / span 1;
+      margin-top: 0;
+      padding-top: 0.7em;
+      padding-bottom: 0.7em;
+      color: #202121;
+      background-color: #f8f9fc;
+      position: fixed;
+      z-index: 100;
+      width: 100%;
+      top:0;
    }
 
    nav ul {
@@ -82,8 +101,19 @@ body {
   color: #202121;
   background-color: #f8f9fc;
     }
+
+.main-heading-w {
+margin-top: 2em;
+cursor: pointer;
+text-align: center;
+font-family: 'Raleway', sans-serif;
+font-size: 3em;
+color: #f8f9fc;
+background-color: #202121;
+        }
+
 /* set up the grid */
-#svg-grid {
+.svg-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
@@ -95,6 +125,8 @@ body {
 .container svg { margin: auto; width: 50%; }
 .container p { text-align: center; padding-top: 10px; }
 
+.icon {margin: auto; width: 60%}
+
 .section-containers {
 display: flex;
 flex-wrap: wrap;
@@ -105,33 +137,11 @@ width: 100%;
 
 /*------------ Start Footer ------------*/
 .footer {
-  display: inline-grid;
-  align-items: center;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   margin-top: 5em;
+  padding: 5em;
 }
 
-.footer-contac {
-   display: flex;
-   align-content: center;
-   text-align: center;
-   padding: 5em;
-}
-
-.footer-contac p {
-   display: inline-grid;
-   justify-content: center;
-   align-items: center;
-   align-self: center;
-   font-weight: 700;
-   color: #f8f9fc;
-   background-color: inherit;
-   width: 20%;
-}
-
-
-.icon-social{
-   width: 40px;
-}
 /*------------ End Footer ------------*/
