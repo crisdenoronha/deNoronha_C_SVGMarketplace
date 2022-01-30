@@ -1,3 +1,4 @@
+
 ![image illustrator](images/draw.png)
 # Soundly Sky Icons
 <p>The Soundly Sky Icons were created for the Music Mixer project (IDP3 - Fanshawe College).<br> 
@@ -16,8 +17,8 @@ reverse all of the colours or add a drop shadow, etc).<br>
 When clicked, toggle a “selected” CSS class on the active icon and log a message to the
 console with the ID of the element that you’ve clicked. The ID should be retrieved and displayed
 with a JavaScript string template and variable (refer to the class example)."</p>
-<p>Trevor Van Rys - Multimedia Authoring 2 - SVG Icon MarketPlace</p>
 
+<p>Trevor Van Rys - Multimedia Authoring 2 - SVG Icon MarketPlace</p>
 
 ## Credits
 
